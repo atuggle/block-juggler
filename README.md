@@ -1,3 +1,10 @@
+
+* Used instructions found here for adding eosjs to this project
+** [eosjs](https://github.com/EOSIO/eosjs)
+** In docker container execute this: `yarn add eosjs` 
+** docker-compose exec app yarn add eosjs
+
+# Below is original React start README.md instructions #
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
