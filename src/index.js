@@ -5,7 +5,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 
-import eosjs from "./utils/eosjs-imports";
+// import eosjs from "./js/utils/eosjs-imports";
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
