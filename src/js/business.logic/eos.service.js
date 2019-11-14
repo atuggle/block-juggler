@@ -37,10 +37,9 @@ const EosService = {
                 let currentBlock = response;
                 allBlocks.push(currentBlock)
                 this.getBlockForId(currentBlock.previous, allBlocks, count, component);
+
+                component.setState({allBlocks: allBlocks});
             });
-        }
-        else {
-            component.setState({allBlocks: allBlocks});
         }
     }
 }

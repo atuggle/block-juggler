@@ -16,12 +16,6 @@ export default class BlockJuggler extends React.Component {
         EosService.getAllBlocks(this);
     }
 
-    getAllBlocks(blocks) {
-        console.log("getAllBlocks - Callback");
-        console.log(blocks);
-        this.setState({allBlocks: blocks});
-    }
-
     render() {
         return (
             <div>
